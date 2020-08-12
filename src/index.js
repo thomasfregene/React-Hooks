@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ReducerComp from './userReducer';
+//import ReducerComp from './userReducer';
+import App from './context/ContextApp';
 
-ReactDOM.render(<ReducerComp initialCount={0}/>,document.getElementById('root'));
+ReactDOM.render(<App />,document.getElementById('root'));
